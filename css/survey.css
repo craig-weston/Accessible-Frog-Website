@@ -1,0 +1,62 @@
+/* Survey page styles */
+
+.photo {
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+legend {
+	font-weight: 800;
+}
+
+fieldset {
+	border: 0;
+}
+
+textarea,
+textfield {
+	border: 1px solid grey;
+}
+
+textfield {
+	height: 1.1em;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+textfield:focus,
+button:focus {
+	outline: 2px solid navy;
+}
+
+button {
+/*	width: 80px;*/
+	min-height: 24px;
+	font-size: 1em;
+}
+
+.container {
+  text-align: center;
+}
+
+.newsletter {
+  text-align: right;
+}
+
+legend#contact-info {
+	visibility: hidden;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+	width: 40%;
+  }
+}
